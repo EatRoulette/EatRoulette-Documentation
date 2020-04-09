@@ -1,4 +1,4 @@
-# EatRoulette
+# Documentation fonctionnelle
 
 ![logo](../ressources/img/name/enrich/EatRoulette-large-logo-right-bordless.png)
 
