@@ -14,5 +14,5 @@ Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir
 ## Index
 
 - [Documentation fonctionnel](docs/fonctionnalDoc.md)
-- Documentation Technique
-- Design des IHM
+- [Documentation Technique](docs/technicalDoc.md)
+- [Design des IHM]()
