@@ -26,4 +26,7 @@ Schéma de l'architecture logicielle global du projet. Cette dernière s'articul
 
 ### MCD
 
+![](../ressources/diagrams/EatRoulette-MCD.png)
+
+*Diagramme MCD*
 
