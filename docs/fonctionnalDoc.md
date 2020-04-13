@@ -12,6 +12,8 @@ Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir
 
 ## Fonctionnalités de l'application
 
+##### Fonctionnalités utilisateur - Client Web
+
 | Fonctionnalités                           | Détails                                                      |
 | :---------------------------------------- | ------------------------------------------------------------ |
 | Roulette                                  | La roulette est la fonctionnalité permettant de proposer aléatoirement un restaurant (connecté ou non). |
@@ -28,9 +30,22 @@ Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir
 
 
 
+##### Fonctionnalités administrateur - Client Lourd
+
+| Fonctionnalités                   | Détails                                                      |
+| :-------------------------------- | ------------------------------------------------------------ |
+| Consulter le tracking utilisateur | L'administrateur à la possiblitée de visionner le tracking réaliser par l'application. En le consultant, il à la possibilitée de filtrer (par localisation, type de restaurant...) et de construire le reporting qu'il souhaite. |
+| Consulter le tracking des tickets | L'administrateur à la possiblitée de visionner le tracking sur les tickets réaliser par l'application. En le consultant, il à la possibilitée de filtrer (par état, type de demande...) et de construire le reporting qu'il souhaite. |
+| Gérer les plugins                 | Via  cette fonctionnalitée, l'administrateur à la possiblitée d'ajouter ou supprimer au client lourd différents plugins. |
+| Gérer les demandes utilisateurs   | Permet de gérer les différentes demandes des utilisateurs via les tickets. Il peut requalifier les demandes (Bogue, demande...), changer le statut (En cours, Résolue...), les commenter dans le but |
+
+
+
 ## Use case
 
+Ci-dessous le diagrammes des cas d'utilisation :
 
+![UseCase](../ressources/diagrams/EatRoulette-Diagrams-UseCase.png)
 
 *Diagramme des cas d'utilisations*
 
