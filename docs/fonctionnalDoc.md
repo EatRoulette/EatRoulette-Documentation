@@ -26,3 +26,16 @@ Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir
 | Descriptif d'un plat                      | Certain plat pourront être décrit avec l'histoire du plat. C'est description seront récupérer sur d'autre site. |
 | Envoie de Ticket                          | L'utilisateur pourra envoyer des tickets expliquant le problème rencontré au support |
 
+
+
+## Use case
+
+
+
+*Diagramme des cas d'utilisations*
+
+
+
+---
+
+© EatRouletteDev-2020

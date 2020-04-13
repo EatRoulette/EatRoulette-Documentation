@@ -51,3 +51,9 @@ Vous trouverez ci-dessous, les différentes idées de design des interfaces pour
 ![Main-Java-IHM-Pluggin_1](../ressources/img/ihm/design_java/Main-Java-IHM-Pluggin_1.png)
 
 ![Main-Java-IHM-Pluggin_2](../ressources/img/ihm/design_java/Main-Java-IHM-Pluggin_2.png)
+
+
+
+---
+
+© EatRouletteDev-2020
