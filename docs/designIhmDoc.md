@@ -36,6 +36,8 @@ Vous trouverez ci-dessous, les différentes idées de design des interfaces pour
 
 ![EatRoulette-Support](../ressources/img/ihm/desgin_angular/EatRoulette-Support.png)
 
+![EatRoulette-Support_liste](../ressources/img/ihm/desgin_angular/EatRoulette-Support_liste.png)
+
 
 
 ## Application de bureau - JavaFX
