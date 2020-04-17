@@ -30,3 +30,8 @@ Schéma de l'architecture logicielle global du projet. Cette dernière s'articul
 
 *Diagramme MCD*
 
+
+
+---
+
+© EatRouletteDev-2020
