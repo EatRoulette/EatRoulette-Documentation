@@ -25,7 +25,7 @@ Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir
 | Définir sa situation                      | Un utilisateur connecté pourra renseigner sa situation, ses allergènes, s'il y est en situation de handicap ou encore son régime alimentaire. |
 | Groupe ami                                | Les utilisateurs connectés pourront créer des groupes et inviter leurs amis EatRoulette. |
 | Roulette groupé                           | Les utilisateurs connectés pourront tirer au sort un restaurant parmi leurs listes de favoris. |
-| Descriptif d'un plat                      | Certain plat pourront être décrit avec l'histoire du plat. C'est description seront récupérer sur d'autre site. |
+| Descriptif d'un plat                      | Certain plat pourront être décrit avec l'histoire du plat. Ces descriptions seront récupérées sur d'autres sites. |
 | Envoie de Ticket                          | L'utilisateur pourra envoyer des tickets expliquant le problème rencontré au support |
 | Mon historique                            | Un utilisateur connecté pourra consulté la liste des restaurant qu'il est allé visité via la roulette quand il l'aura choisi via le bouton "Valider" après la roulette. |
 
