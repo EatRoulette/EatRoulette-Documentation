@@ -60,7 +60,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 ## Descriptif des cas d'utilisations
 
-### Insciption
+### Inscription
 
 #### Cas d'utilisation
 
@@ -93,7 +93,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 |      | Utilisateur                        |      | Système                                                      |
 | ---- | ---------------------------------- | ---- | ------------------------------------------------------------ |
 |      |                                    | 31   | Le système trouve un autre utilisateur avec le même email    |
-|      |                                    | 32   | le système renvoie un message d'erreur indiquant à l'utilisateur qu'un autre compte utlise déjà cet email |
+|      |                                    | 32   | le système renvoie un message d'erreur indiquant à l'utilisateur qu'un autre compte utilise déjà cet email |
 | 21   | L'utilisateur entre un autre email |      |                                                              |
 
 #### Fin du cas d'utilisation
@@ -148,13 +148,13 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 ## Déconnexion
 
-|         Nom          |                     Déconnexion                      |
-| :------------------: | :--------------------------------------------------: |
-|        Numéro        |                          3                           |
-|        Acteur        |                     Utilisateur                      |
-| Dernière mise à jour |                      5/05/2019                       |
-|     Précondition     |           L'utilisateur doit être connecté           |
-|      Démarrage       | L'utilisateur clique sur le boutton "se déconnecter" |
+|         Nom          |                     Déconnexion                     |
+| :------------------: | :-------------------------------------------------: |
+|        Numéro        |                          3                          |
+|        Acteur        |                     Utilisateur                     |
+| Dernière mise à jour |                      5/05/2019                      |
+|     Précondition     |          L'utilisateur doit être connecté           |
+|      Démarrage       | L'utilisateur clique sur le bouton "se déconnecter" |
 
 #### Scénario nominal
 
@@ -167,7 +167,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 |      | Utilisateur |      | Système                                                      |
 | ---- | ----------- | ---- | ------------------------------------------------------------ |
-|      |             | 11   | Le système detecte que la session arrive à la fin            |
+|      |             | 11   | Le système détecte que la session arrive à la fin            |
 |      |             | 21   | le système renvoie un message indiquant à l'utilisateur qu'il à été déconnecté |
 
 #### Scénario d'exception
@@ -206,24 +206,24 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 |      | Utilisateur                                             |      | Système |
 | ---- | ------------------------------------------------------- | ---- | ------- |
-| 21   | L’utilisateur décide de retourner sur la page d'acceuil |      |         |
+| 21   | L’utilisateur décide de retourner sur la page d'accueil |      |         |
 
 #### Scénario d'exception
 
 |      | Utilisateur |      | Système                                                      |
 | ---- | ----------- | ---- | ------------------------------------------------------------ |
-|      |             | 41   | un ou plusieur champs sont manquant                          |
+|      |             | 41   | un ou plusieurs champs sont manquant                         |
 |      |             | 42   | le système renvoie un message d'erreur à l'utilisateur indiquant quels champs est vide |
 
 #### Fin du cas d'utilisation
 
-| Arrêt de cas d'utilisation | L'utilisateur quite la page de demande au support            |
+| Arrêt de cas d'utilisation | L'utilisateur quitte la page de demande au support           |
 | -------------------------- | ------------------------------------------------------------ |
 | Post-condition             | <u>Fin normale :</u> Affiche un message de succès et enregistre la demande.              <u>Annulation :</u> Aucun envoie n’est effectué, un message signale que le formulaire n’a pas été envoyé. |
 
-## Definir sa situation
+## Définir allergènes et caractéristiques
 
-|         Nom          |                     Definit sa situation                     |
+|         Nom          |                     Définit sa situation                     |
 | :------------------: | :----------------------------------------------------------: |
 |        Numéro        |                              5                               |
 |        Acteur        |                         Utilisateur                          |
@@ -233,18 +233,18 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 #### Scénario nominal
 
-|      | Utilisateur                           |      | Système                                                     |
-| ---- | ------------------------------------- | ---- | ----------------------------------------------------------- |
-|      |                                       | 10   | Affiche la page d'utilisation de définition de sa situation |
-| 20   | L'utilisateur renseigne sa situation  |      |                                                             |
-| 30   | L'utilisateur renseigne ses allergies |      |                                                             |
-|      |                                       | 40   | Envoie les données en base                                  |
+|      | Utilisateur                                  |      | Système                                                      |
+| ---- | -------------------------------------------- | ---- | ------------------------------------------------------------ |
+|      |                                              | 10   | Affiche la page pour définir ses allergènes et caractéristiques |
+| 20   | L'utilisateur renseigne ses caractéristiques |      |                                                              |
+| 30   | L'utilisateur renseigne ses allergies        |      |                                                              |
+|      |                                              | 40   | Envoie les données en base                                   |
 
 #### Scénario alternatif
 
 |      | Utilisateur                                |      | Système |
 | ---- | ------------------------------------------ | ---- | ------- |
-| 21   | L'utilisateur retourne à la page d'acceuil |      |         |
+| 21   | L'utilisateur retourne à la page d'accueil |      |         |
 
 #### Scénario alternatif
 
@@ -258,12 +258,12 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 |      | Utilisateur |      | Système                                                      |
 | ---- | ----------- | ---- | ------------------------------------------------------------ |
-|      |             | 41   | un ou plusieur champs sont manquant                          |
+|      |             | 41   | un ou plusieurs champs sont manquant                         |
 |      |             | 42   | le système renvoie un message d'erreur à l'utilisateur indiquant quels champs est vide |
 
 #### Fin du cas d'utilisation
 
-| Arrêt de cas d'utilisation | L'utilisateur quite la page de définition de sa situation    |
+| Arrêt de cas d'utilisation | L'utilisateur quitte la page de définition de sa situation   |
 | -------------------------- | ------------------------------------------------------------ |
 | Post-condition             | <u>Fin normale :</u> Affiche un message de succès et enregistre la situation.                     <u>Update :</u> Affiche un message de succès et enregistre la nouvelle situation. |
 
@@ -296,14 +296,14 @@ Ci-dessous le diagrammes des cas d'utilisation :
 | 31   | L'utilisateur lance la roulette                           |      |                                                              |
 |      |                                                           | 41   | le système met en commun les situations des utilisateurs conviés |
 |      |                                                           | 42   | le système renvoie un restaurant de la liste de façon aléatoire en fonction des situations des utilisateurs |
-|      |                                                           | 43   | le système affiche le match entre les sutiations fournies et le restaurant proposé en % |
+|      |                                                           | 43   | le système affiche le match entre les allergènes et caractéristiques fournies et le restaurant proposé en % |
 
 #### Scénario d'exception
 
 |      | Utilisateur |      | Système                                                      |
 | ---- | ----------- | ---- | ------------------------------------------------------------ |
 |      |             | 41   | la situation des utilisateurs n'est pas définis              |
-|      |             | 42   | Le système renvoie un message d'erreur indiquant qu'un ou plusieur situation ne sont pas définis |
+|      |             | 42   | Le système renvoie un message d'erreur indiquant qu'une ou plusieurs situation ne sont pas définis |
 
 #### Fin du cas d'utilisation
 
@@ -328,7 +328,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 |      | Utilisateur                                                  |      | Système                                                   |
 | ---- | ------------------------------------------------------------ | ---- | --------------------------------------------------------- |
 |      |                                                              | 10   | Affiche la page contenant les listes de restaurants       |
-| 20   | L'utilisateur choisi la liste de resaurant qu'ils souhaite gérer |      |                                                           |
+| 20   | L'utilisateur choisi la liste de restaurant qu'ils souhaite gérer |      |                                                           |
 |      |                                                              | 30   | le système affiche les restaurants contenue dans la liste |
 | 40   | L'utilisateur à la possibilité d'ajouter, de modifier ou de supprimer un restaurant |      |                                                           |
 
@@ -359,7 +359,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 |      | Utilisateur                                                  |      | Système                                            |
 | ---- | ------------------------------------------------------------ | ---- | -------------------------------------------------- |
 |      |                                                              | 10   | Affiche la page contenant la liste des restaurants |
-| 20   | L'utilisateur clicque sur "ajouter un restaurant"            |      |                                                    |
+| 20   | L'utilisateur clique sur "ajouter un restaurant"             |      |                                                    |
 |      |                                                              | 30   | Le système affiche une barre de recherche          |
 | 40   | L'utilisateur renseigne le restaurant qu'il souhaite ajouter à sa liste |      |                                                    |
 |      |                                                              | 50   | le système ajoute le restaurant à la liste en base |
@@ -395,13 +395,13 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 #### Scénario nominal
 
-|      | Utilisateur                                       |      | Système                                                      |
-| ---- | ------------------------------------------------- | ---- | ------------------------------------------------------------ |
-|      |                                                   | 10   | Affiche la page contenant la liste des restaurants           |
-| 20   | L'utilisateur clique sur "supprimer le resaurant" |      |                                                              |
-|      |                                                   | 30   | Le système affiche un message de confirmation dans une popup |
-| 40   | L'utilisateur confirme la suppression             |      |                                                              |
-|      |                                                   | 50   | le système désaffiche la popup et supprime le restaurant à la liste en base |
+|      | Utilisateur                                        |      | Système                                                      |
+| ---- | -------------------------------------------------- | ---- | ------------------------------------------------------------ |
+|      |                                                    | 10   | Affiche la page contenant la liste des restaurants           |
+| 20   | L'utilisateur clique sur "supprimer le restaurant" |      |                                                              |
+|      |                                                    | 30   | Le système affiche un message de confirmation dans une popup |
+| 40   | L'utilisateur confirme la suppression              |      |                                                              |
+|      |                                                    | 50   | le système désaffiche la popup et supprime le restaurant à la liste en base |
 
 #### Scénarios alternatifs
 
@@ -423,9 +423,9 @@ Ci-dessous le diagrammes des cas d'utilisation :
 | -------------------------- | ------------------------------------------------------------ |
 | Post-condition             | <u>Fin normale :</u> Affiche et update la liste des restaurants. |
 
-## Resoudre les demandes de support
+## Résoudre les demandes de support
 
-|         Nom          | Resoudre les demandes de support |
+|         Nom          | Résoudre les demandes de support |
 | :------------------: | :------------------------------: |
 |        Numéro        |                10                |
 |        Acteur        |          Administrateur          |
@@ -442,16 +442,16 @@ Ci-dessous le diagrammes des cas d'utilisation :
 |      |                                                              | 30   | Le système affiche les informations du tickets       |
 | 40   | L'administrateur choisi quel administrateur est en charge du ticket (il peut se l'assigner à lui même ou a un autre administrateur) |      |                                                      |
 |      |                                                              | 50   | Le système update en base les informations du ticket |
-| 60   | L'administrateur résoud le ticket                            |      |                                                      |
-| 70   | L'administrateur fait avancé le status du ticket             |      |                                                      |
-|      |                                                              | 80   | Le système update en base le status du ticket        |
+| 60   | L'administrateur résout le ticket                            |      |                                                      |
+| 70   | L'administrateur fait avancé le statuts du ticket            |      |                                                      |
+|      |                                                              | 80   | Le système update en base le statuts du ticket       |
 
 #### Scénarios alternatifs
 
-|      | Utilisateur                                                  |      | Système                                       |
-| ---- | ------------------------------------------------------------ | ---- | --------------------------------------------- |
-| 71   | L'administrateur revient sur le status du ticket terminé si la résolution n'est pas completement satisefante |      |                                               |
-|      |                                                              | 81   | le système update le status du ticket en base |
+|      | Utilisateur                                                  |      | Système                                        |
+| ---- | ------------------------------------------------------------ | ---- | ---------------------------------------------- |
+| 71   | L'administrateur revient sur le statuts du ticket terminé si la résolution n'est pas complètement satisfaisante |      |                                                |
+|      |                                                              | 81   | le système update le statuts du ticket en base |
 
 #### Scénario d'exception
 
@@ -464,7 +464,7 @@ Ci-dessous le diagrammes des cas d'utilisation :
 
 | Arrêt de cas d'utilisation | Quitte la page de résolution de tickets                      |
 | -------------------------- | ------------------------------------------------------------ |
-| Post-condition             | <u>Fin normale :</u> Affiche le ticket comme résolut                                                                                   <u>Fin alternative</u>: Affiche le ticket avec son status |
+| Post-condition             | <u>Fin normale :</u> Affiche le ticket comme résolut                                                                                   <u>Fin alternative</u>: Affiche le ticket avec son statuts |
 
 ## Consulter le tracking
 
@@ -519,15 +519,15 @@ Ci-dessous le diagrammes des cas d'utilisation :
 | ---- | ------------------------------------------------- | ---- | ----------------------------------- |
 |      |                                                   | 10   | Affiche la page gestion des plugins |
 | 20   | L'administrateur clique sur ajouter un plugins    |      |                                     |
-| 30   | L'administrateur selectionne le plugins à ajouter |      |                                     |
-|      |                                                   | 40   | le sytème ajoute le plugin          |
+| 30   | L'administrateur sélectionne le plugins à ajouter |      |                                     |
+|      |                                                   | 40   | le système ajoute le plugin         |
 
 #### Scénarios alternatifs
 
-|      | Utilisateur                                     |      | Système                      |
-| ---- | ----------------------------------------------- | ---- | ---------------------------- |
-| 31   | L'administrateur clique sur Supprimer un plugin |      |                              |
-|      |                                                 | 41   | le sytème supprime le plugin |
+|      | Utilisateur                                     |      | Système                       |
+| ---- | ----------------------------------------------- | ---- | ----------------------------- |
+| 31   | L'administrateur clique sur Supprimer un plugin |      |                               |
+|      |                                                 | 41   | le système supprime le plugin |
 
 #### Scénario d'exception
 
