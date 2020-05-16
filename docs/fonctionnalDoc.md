@@ -423,6 +423,125 @@ Ci-dessous le diagrammes des cas d'utilisation :
 | -------------------------- | ------------------------------------------------------------ |
 | Post-condition             | <u>Fin normale :</u> Affiche et update la liste des restaurants. |
 
+## Resoudre les demandes de support
+
+|         Nom          | Resoudre les demandes de support |
+| :------------------: | :------------------------------: |
+|        Numéro        |                10                |
+|        Acteur        |          Administrateur          |
+| Dernière mise à jour |            15/05/2019            |
+|     Précondition     | L'utilisateur doit être connecté |
+|      Démarrage       |  Accède aux demande de support   |
+
+#### Scénario nominal
+
+|      | Utilisateur                                                  |      | Système                                              |
+| ---- | ------------------------------------------------------------ | ---- | ---------------------------------------------------- |
+|      |                                                              | 10   | Affiche la page contenant la liste des tickets       |
+| 20   | L'administrateur choisit le ticket pour afficher les informations |      |                                                      |
+|      |                                                              | 30   | Le système affiche les informations du tickets       |
+| 40   | L'administrateur choisi quel administrateur est en charge du ticket (il peut se l'assigner à lui même ou a un autre administrateur) |      |                                                      |
+|      |                                                              | 50   | Le système update en base les informations du ticket |
+| 60   | L'administrateur résoud le ticket                            |      |                                                      |
+| 70   | L'administrateur fait avancé le status du ticket             |      |                                                      |
+|      |                                                              | 80   | Le système update en base le status du ticket        |
+
+#### Scénarios alternatifs
+
+|      | Utilisateur                                                  |      | Système                                       |
+| ---- | ------------------------------------------------------------ | ---- | --------------------------------------------- |
+| 71   | L'administrateur revient sur le status du ticket terminé si la résolution n'est pas completement satisefante |      |                                               |
+|      |                                                              | 81   | le système update le status du ticket en base |
+
+#### Scénario d'exception
+
+|      | Utilisateur |      | Système                                                      |
+| ---- | ----------- | ---- | ------------------------------------------------------------ |
+|      |             | 51   | Le système ne trouve pas le ticket recherché                 |
+|      |             | 52   | Le système envoie un message à l'administrateur afin de lui indiqué qu'aucun ticket n'a été trouvé |
+
+#### Fin du cas d'utilisation
+
+| Arrêt de cas d'utilisation | Quitte la page de résolution de tickets                      |
+| -------------------------- | ------------------------------------------------------------ |
+| Post-condition             | <u>Fin normale :</u> Affiche le ticket comme résolut                                                                                   <u>Fin alternative</u>: Affiche le ticket avec son status |
+
+## Consulter le tracking
+
+|         Nom          |        Consulter le tracking        |
+| :------------------: | :---------------------------------: |
+|        Numéro        |                 11                  |
+|        Acteur        |           Administrateur            |
+| Dernière mise à jour |             15/05/2019              |
+|     Précondition     | L'administrateur doit être connecté |
+|      Démarrage       |         Accède aux tracking         |
+
+#### Scénario nominal
+
+|      | Utilisateur                                           |      | Système                     |
+| ---- | ----------------------------------------------------- | ---- | --------------------------- |
+|      |                                                       | 10   | Affiche la page de tracking |
+| 20   | L'administrateur consulte le tracking sur EatRoulette |      |                             |
+
+#### Scénarios alternatifs
+
+|      | Utilisateur                           |      | Système                                                      |
+| ---- | ------------------------------------- | ---- | ------------------------------------------------------------ |
+| 11   | L'administrateur clique sur un filtre |      |                                                              |
+|      |                                       | 21   | le système update l'affichage du tracking en fonction des filtres choisi |
+
+#### Scénario d'exception
+
+|      | Utilisateur |      | Système                                                      |
+| ---- | ----------- | ---- | ------------------------------------------------------------ |
+|      |             | 51   | Le système ne trouve aucun tracking correspondant            |
+|      |             | 52   | Le système envoie un message à l'administrateur afin de lui indiqué qu'aucun tracking n'a été trouvé |
+
+#### Fin du cas d'utilisation
+
+| Arrêt de cas d'utilisation | Quitte la page de tracking                                   |
+| -------------------------- | ------------------------------------------------------------ |
+| Post-condition             | <u>Fin normale :</u> Affiche tout le tracking sur EatRoulette                                                                                  <u>Fin alternative</u>: Affiche le tracking sur EatRoulette correspondant aux filtres |
+
+## Gestion des plugins
+
+|         Nom          |           Gestion des plugins           |
+| :------------------: | :-------------------------------------: |
+|        Numéro        |                   12                    |
+|        Acteur        |             Administrateur              |
+| Dernière mise à jour |               15/05/2019                |
+|     Précondition     |   L'administrateur doit être connecté   |
+|      Démarrage       | Accède à la page de gestion des plugins |
+
+#### Scénario nominal
+
+|      | Utilisateur                                       |      | Système                             |
+| ---- | ------------------------------------------------- | ---- | ----------------------------------- |
+|      |                                                   | 10   | Affiche la page gestion des plugins |
+| 20   | L'administrateur clique sur ajouter un plugins    |      |                                     |
+| 30   | L'administrateur selectionne le plugins à ajouter |      |                                     |
+|      |                                                   | 40   | le sytème ajoute le plugin          |
+
+#### Scénarios alternatifs
+
+|      | Utilisateur                                     |      | Système                      |
+| ---- | ----------------------------------------------- | ---- | ---------------------------- |
+| 31   | L'administrateur clique sur Supprimer un plugin |      |                              |
+|      |                                                 | 41   | le sytème supprime le plugin |
+
+#### Scénario d'exception
+
+|      | Utilisateur |      | Système                                                      |
+| ---- | ----------- | ---- | ------------------------------------------------------------ |
+|      |             | 51   | Le système ne trouve aucun plugin correspondant              |
+|      |             | 52   | Le système envoie un message à l'administrateur afin de lui indiqué qu'aucun plugin n'a été trouvé |
+
+#### Fin du cas d'utilisation
+
+| Arrêt de cas d'utilisation | Quitte la page de plugins                                    |
+| -------------------------- | ------------------------------------------------------------ |
+| Post-condition             | <u>Fin normale :</u> Affiche un message de succès pou indiqué à l'administrateur que le plugin à bien été ajouté.                                                                                                                  <u>Fin alternative</u>: Affiche un message de succès pou indiqué à l'administrateur que le plugin à bien été supprimé. |
+
 ---
 
 © EatRouletteDev-2020
