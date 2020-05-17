@@ -9,6 +9,8 @@ EatRoulette est une application permettant à ses utilisateurs de choisir des re
 
 Grâce à un aspect social, vous pouvez inviter vos amis à déjeuner et choisir au hasard dans vos restaurants favoris le lieux idéal. Le restaurant choisis respectera l'ensemble des préférences de vos amis.
 
+Toute la documentation est disponible au format PDF dans le dossier pdf. Il est néanmoins conseillé de lire la documentation [en ligne](https://github.com/EatRoulette/EatRoulette-Documentation), ou alors d'utiliser un logiciel comme [Typora](https://typora.io/) pour lire la documentation.
+
 
 
 ## Index
