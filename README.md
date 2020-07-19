@@ -18,3 +18,4 @@ Toute la documentation est disponible au format PDF dans le dossier pdf. Il est 
 - [Documentation fonctionnel](docs/fonctionnalDoc.md)
 - [Documentation Technique](docs/technicalDoc.md)
 - [Design des IHM](docs/designIhmDoc.md)
+- [Java manuel d'utilisation](docs/JavaFrontDoc.md)
