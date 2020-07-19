@@ -6,7 +6,7 @@ EatRoulette propose certaine fonctionnalités sans que l'utilisateur nécessite 
 
 ### <u>Tirage au sort d'un restaurant</u>  
 
-### ![Rand](../ressources\img\angular\roulette-user-not-connected.png)
+### ![](../ressources\img\angular\roulette-user-not-connected.png)
 
 On accède à cette page en cliquant sur l'icone **EatRoulette** en haut de la page.
 
