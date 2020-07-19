@@ -26,10 +26,10 @@
 
 - Afficher tous les restaurants : 
 
-- Cliquer sur le button View All Restaurant :![](..\ressources\img\FrontJava\CliqueViewAllRestaurants.png)
+- Cliquer sur le button View All Restaurant : ![](..\ressources\img\FrontJava\CliqueViewAllRestaurants.png)
   
 - Affichage de tous les restaurants : ![](..\ressources\img\FrontJava\ViewAllRestaurants.png)
-  - Cliquez sur un bouton du restaurant :![](..\ressources\img\FrontJava\cliqueBouttonRestaurantData.png)
+  - Cliquez sur un bouton du restaurant : ![](..\ressources\img\FrontJava\cliqueBouttonRestaurantData.png)
   - Affichage des informations du restaurant : ![](..\ressources\img\FrontJava\RestaurantInfo.png)
   
 - Creer un restaurant :
