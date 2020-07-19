@@ -34,8 +34,7 @@
   
 - Creer un restaurant :
 
-  - Cliquez sur le bouton "Create new Restaurant" : 
-  ![](..\ressources\img\FrontJava\CreateRestaurantFeature.png)
+  - Cliquez sur le bouton "Create new Restaurant" : ![](..\ressources\img\FrontJava\CreateRestaurantFeature.png)
 
   - Cliquez sur submit pour créer le Restaurant après avoir remplis tous les champs du formulaire :![](..\ressources\img\FrontJava\CreateRestaurantFormFill.png)
 
