@@ -69,7 +69,54 @@
 
   - Annuler la création de allergène :![](..\ressources\img\FrontJava\CreateAllergenCancel.PNG)
 
+- Actualiser les informations d'un allergène :
+
+  - Charger tous les nom des Allergènes existant et des Types : 
+
+    ![](..\ressources\img\FrontJava\UpdateAllergenStart.JPG)
+
+  - Sélectionner allergène à modifier puis valider le changement du nom : ![](..\ressources\img\FrontJava\UpdateAllergenSubmit.JPG)
+
     
+
+    
+
+**Utilisation des Tickets :**
+
+- Accès à l'espace des tickets :
+  - Cliquez sur le bouton ticket : ![](..\ressources\img\FrontJava\AccesAuTicket.JPG)
+
+- Affichage de tous les tickets : ![](..\ressources\img\FrontJava\TicketAll.JPG)
+
+- Affichage des tickets de bug :
+
+  - Cliquer sur le bouton  "Display only bug tickets" :![](..\ressources\img\FrontJava\ClickOnlyBugTicket.JPG)
+
+- Affichage des tickets de demande d'utilisateur :
+
+  - Cliquer sur le bouton  "Display only demands tickets" :![](..\ressources\img\FrontJava\ClickOnlyDemandsTickets.JPG)
+
+- Affichage des demandes de création de restaurant : 
+
+  - Cliquer sur le bouton  "Display restaurant demands tickets" :![](..\ressources\img\FrontJava\ClickOnDemandRestaurant.JPG)
+
+    
+
+- Affichage des informations des tickets : 
+
+  - Cliquer sur un ticket : ![](..\ressources\img\FrontJava\ClickTicket.JPG)
+
+  - Résultat de l'affichage après le clique : ![](..\ressources\img\FrontJava\AffichageUnTicket.JPG)
+
+  - Changement du statuts d'un ticket :
+
+    - Cliquer les types de statuts d'un ticket disponible puis sur le bouton "update" pour confirmer : 
+
+    ![](..\ressources\img\FrontJava\IndiqueLeStatusDuTicket.JPG)
+
+    - Ecrire le message du commentaire puis sur le bouton "Commenter" pour confirmer et répondre à l'utilisateur  : ![](..\ressources\img\FrontJava\CommentTicket.JPG)
+
+      
 
 ## Application en mode CLI
 
