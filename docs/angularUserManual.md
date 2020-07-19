@@ -6,7 +6,7 @@ EatRoulette propose certaine fonctionnalités sans que l'utilisateur nécessite 
 
 ### <u>Tirage au sort d'un restaurant</u>  
 
-### ![Rand](../ressources\img\angular\roulette-user-not-connected.PNG)
+### ![Rand](../ressources\img\angular\roulette-user-not-connected.png)
 
 On accède à cette page en cliquant sur l'icone **EatRoulette** en haut de la page.
 
@@ -18,7 +18,7 @@ L'utilisateur peut aussi relancer le tirage au sort en appuyant de nouveau sur l
 
 ### <u>Détails du restaurant</u>
 
-### ![Details](..\ressources\img\angular\details-restaurant-user-not-connected.PNG)
+### ![Details](..\ressources\img\angular\details-restaurant-user-not-connected.png)
 
 sur cette page l'utilisateur à accès aux information du restaurant ainsi qu'un plan indiquant sa position.
 
@@ -52,11 +52,27 @@ Si aucune liste d'ami n'est renseigner la situation sera celle de l'utilisateur 
 
 Si une liste d'ami est renseigné, une situation globale des amis et de l'utilisateur est prise en compte. 
 
-
+![Roulette](..\ressources\img\angular\roulette.PNG)
 
 On lance le tirage en cliquant sur le bouton **Roulette**. Si le restaurant proposé n'est pas souhaité, il est possible de relancer le tirage en réappuyant sur ce même bouton.
 
-En appuyant sur le bouton Valider, le système considère qu'on souhaite si rendre et le restaurant ainsi que les amis apparaitront dans la rubrique **Mon historique**.
+En appuyant sur le bouton **Valider**, le système considère qu'on souhaite si rendre et le restaurant ainsi que les amis apparaitront dans la rubrique **Mon historique**.
+
+En cliquant sur le bouton **Voir** on accède à la page de détails de restaurant, en provenant de la Roulette cette page permet aussi de **Valider** le restaurant
+
+![Roulette Details](..\ressources\img\angular\roulette-details-restaurant.PNG)
+
+
+
+### <u>Demande d'ajout d'un restaurant</u>
+
+Lors de la recherche d'un restaurant, si le restaurant n'existe pas, l'utilisateur à la possibilité de l'ajouter aux catalogue des restaurants EatRoulette en appuyant sur le bouton **L'ajouter**.
+
+Il sera redirigé sur un formulaire d'ajout
+
+![Add Restaurant](..\ressources\img\angular\form-add-restaurant.PNG)
+
+Une fois le restaurant ajouter, un ticket sera automatiquement envoyé et  devra être valider par l'équipe EatRoulette avant d'apparaitre lors d'une recherche et ainsi être rajouter à une liste.
 
 ### <u>Gestion du compte utilisateur</u>
 
@@ -104,9 +120,15 @@ De la même façon que pour les listes de restaurant il est possible de gérer s
 
 ### <u>Historique de l'utilisateur</u>
 
-Un utilisateur EatRoulette peut visualiser l'historique des restaurants où.
+Un utilisateur EatRoulette peut visualiser l'historique des restaurants visité.
 
+![Historic](..\ressources\img\angular\historique.PNG)
 
+Le buton **Restaurant** nous redirige sur la page des informations du restaurant et le bouton **Historique** sur les détails de l'historique.
+
+![Historic Details](..\ressources\img\angular\historique-details.PNG)
+
+ 
 
 ### <u>Demande de support</u>
 
@@ -127,3 +149,4 @@ L'utilisateur peut accéder à ses tickets en cliquant sur le bouton **Mes ticke
 Il peut accéder au détails d'un ticket en appuyant sur le bouton **Details** du ticket concerné, sur cette page il peut visualisé l'avancé du ticket ainsi que répondre à l'équipe EatRoulette.
 
 ![Details Ticket](..\ressources\img\angular\details-ticket.PNG)
+
